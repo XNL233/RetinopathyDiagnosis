@@ -1,0 +1,23 @@
+{
+  "name": "retinopathy-diagnosis-server",
+  "version": "1.0.0",
+  "description": "后端服务 - 视网膜病变AI诊断平台",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "author": "Nanjing University of Posts and Telecommunications",
+  "license": "MIT"
+}
